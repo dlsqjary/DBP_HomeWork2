@@ -31,7 +31,7 @@ public class myforward extends HttpServlet {
 		req.setAttribute("num1",num1);
 		req.setAttribute("num2", num2);
 		req.setAttribute("result", result);
-		RequestDispatcher dispatcher = req.getRequestDispatcher("myjspexample3.jsp");
+		RequestDispatcher dispatcher = req.getRequestDispatcher("myjspexample5.jsp");
 		dispatcher.forward(req, resp);
 		
 	}
